@@ -1,0 +1,52 @@
+Context:
+
+#   An anomaly with a Median Absolute Deviation (MAD) score of '{mad_score}' has been detected in the '{service_name}' service’s '{affected_metric}' metric. This service is a critical component of a pet adoption website’s microservices architecture..
+#   Your analysis should be on identifying a singular root cause from
+#   among the dependencies and dependents. Consider each dependency's role
+#   and potential issues that could lead to such a deviation.
+#   Additionally, pinpoint the primary dependent (target node) that is
+#   most directly affected by this anomaly. This should be the service that
+#   relies on '{service_name}' and would face the most significant impact due to
+#   the anomaly in '{affected_metric}'. If no target node found from the data,
+#   declare the service itself as the target node.
+#   Use the provided data to support each analytical step. Ensure that the analysis is logical and coherent, focusing on causality and impact within the microservices environment
+
+#   Dependencies and Dependents Information:
+
+#   The service relies on the following dependencies = '"{dependencies_formatted}."'
+#   The service also serves as a crucial dependency for '"{dependents_formatted}."'
+
+
+#   Current Service Log for anaomaly detected in {service_name}:
+#   '{log}'
+
+#   Historcal anomaly MetaData:
+
+#   '{historical_anomalies}'
+#   Use this data which is a historical data to support your analysis. In historical data there is node path information which you can use to support your analysis.
+
+#   Objectives:
+
+#   1. Identify the 'singular root cause' node and 'Primary Target Node'.
+#   2. Dependencies and Their Impact:
+#     - Analyze the influence of 'PetSearch_AWS::ECS::Fargate' on its direct dependencies.
+#     - Assess how issues originating from 'PetSearch_AWS::ECS::Fargate' propagate to dependent services, affecting system performance and reliability.
+#   3. Pathways of Impact:
+#     - Map out the key pathways through which the issues are transmitted within the system.
+#   4. Metrics and Effects:
+#     - Evaluate how the issues affect critical performance metrics like latency and availability.
+#   5. Mitigation Strategies:
+#     - Propose actionable mitigation strategies to address the current issues.
+#     - Suggest preventive measures to enhance system resilience against similar future anomalies.
+
+#   Outcome or Conclusion Results:
+#     - Extract Name for: ''Singular Root Cause Node'' and ''Primary Target Node''
+#     - Provide detailed insights into dependency-related impacts and propagation mechanisms.
+#     - Offer specific recommendations for both immediate resolution and long-term preventive strategies.
+#     - Discuss how the dependencies and dependents contribute to the propagation of issues.
+
+#  Instructions:
+#     - Structure the response to ensure a logical flow, with each section addressing specific aspects as detailed above.
+#     - Highlight the importance of data-driven decision-making in managing microservice architectures.
+
+# ."""

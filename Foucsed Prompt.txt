@@ -1,0 +1,40 @@
+An anomaly with a Median Absolute Deviation (MAD) score of '{mad_score}' has been detected in the '{service_name}' service’s '{affected_metric}' metric. This service is a critical component of a pet adoption website’s microservices architecture..
+#   Your analysis should be on identifying a singular root cause from
+#   among the dependencies and dependents. Consider each dependency's role
+#   and potential issues that could lead to such a deviation.
+#   Additionally, pinpoint the primary dependent (target node) that is
+#   most directly affected by this anomaly. This should be the service that
+#   relies on '{service_name}' and would face the most significant impact due to
+#   the anomaly in '{affected_metric}'. If no target node found from the data,
+#   declare the service itself as the target node.
+#   Use the provided data to support each analytical step. Ensure that the analysis is logical and coherent, focusing on causality and impact within the microservices environment
+
+#   Dependencies and Dependents Information:
+
+#   The service relies on the following dependencies = '"{dependencies_formatted}."'
+#   The service also serves as a crucial dependency for '"{dependents_formatted}."'
+
+#   Current Service Log for anaomaly detected in {service_name}:
+#   '{log}'
+
+#   Historcal Anomalies MetaData:
+
+#   '{historical_anomalies}'
+#   You can use this data which is a historical data to support your analysis. In historical data there is node path information which you can use to support your analysis.
+
+#   Objectives:
+
+#   1. Identify the 'singular root cause' node among the dependencies and dependents.
+#       -Evaluate the interactions within the service dependency chain.
+#       -Identify the likely starting point of the anomalies based on the roles and interactions detailed in the logs and summary.
+#       -Analyze how the identified root cause node's functionality could lead to observed issues.
+#   2. Identify the 'primary target node' among the dependents directly impacted by
+#      this anomaly.
+#   3. Assess the impact on dependent services and discuss the operational and integration challenges faced by affected nodes within the overall architecture.
+
+#   Outcome or Conclusion Results:
+#     - Extract Name for: ''Singular Root Cause Node'' and ''Primary Target Node''
+#     - Summarize the identified root cause and most affected target node.
+#     - Discuss how the dependencies and dependents contribute to the propagation of issues.
+#  Instructions:
+#     - Structure the response to ensure a logical flow, with each section addressing specific aspects as detailed above.
